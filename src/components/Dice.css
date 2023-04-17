@@ -1,0 +1,94 @@
+.diceGame {
+  /* display: flex; */
+  height: auto;
+  width: auto;
+  /* justify-content: center; */
+  padding: 3rem;
+  /* background-color: black; */
+  color: aliceblue;
+  background-color: rgb(60, 59, 59);
+}
+.master-container {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 1s;
+}
+.master-container:hover {
+  box-shadow: 0 0 1rem white;
+  transition: 1s;
+}
+
+.profile {
+  display: flex;
+}
+.playerNumberL,
+.playerNumberR {
+  height: 35vh;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.message 
+{
+  font-size: larger;
+font-weight: 700;
+  height: 10vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diceValue {
+  height: 10vh;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: grey; */
+}
+.value {
+  display: flex;
+  align-items: center;
+  height: 10px;
+  padding: 1rem;
+}
+.button {
+
+  height: 10vh;
+  width: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  color: aliceblue;
+  border: 20px;
+  background-color: grey;
+}
+.pic {
+  object-fit: cover;
+  object-position: top;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
